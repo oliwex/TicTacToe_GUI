@@ -33,7 +33,9 @@ public class TicTacToe extends Application {
         try {
             FXMLLoader loader=new FXMLLoader(this.getClass().getResource("/Game/Game.fxml"));
             BorderPane borderPane=loader.load();
+            
             Scene scene=new Scene(borderPane);
+            scene.getStylesheets().add("/Game/game.css");
             primaryStage.setScene(scene);
             primaryStage.setTitle("TicTacToe Game");
             primaryStage.setResizable(false);

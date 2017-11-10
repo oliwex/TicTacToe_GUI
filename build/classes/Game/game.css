@@ -5,3 +5,25 @@
 .mainFxmlClass {
 
 }
+.title-center , .title-left , .title-right
+{
+    -fx-fill: rgb(112,213,123);
+    -fx-alignment: CENTER; 
+}
+.title-center
+{
+    -fx-font: 50px "Monotype Corsiva";
+ 
+}
+.title-left , .title-right
+{
+    -fx-font: 40px "Verdana";
+}
+.title-left
+{
+    -fx-fill: BLACK;
+}
+.title-right
+{
+    -fx-fill: RED;
+}
